@@ -11,7 +11,11 @@ resource "azurerm_resource_group" "raju1" {
   name     = "raju_rg1"
   location = "westeurope"
 }
+
 resource "azurerm_resource_group" "paras1" {
   name     = "parastayde_rg"
+  
+resource "azurerm_resource_group" "raju2" {
+  name     = "raju_rg2"
   location = "westeurope"
 }
